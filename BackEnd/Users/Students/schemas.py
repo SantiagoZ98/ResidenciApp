@@ -9,6 +9,13 @@ class StudentBase(BaseModel):
 class StudentCreate(StudentBase):
     pass
 
+class StudentUpdate(BaseModel):
+    name: str
+    age: int
+
+    class Config:
+        orm_mode = True
+
 class StudentResponse(StudentBase):
     id: int
 
