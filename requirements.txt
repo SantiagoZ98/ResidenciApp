@@ -5,3 +5,4 @@ pydantic
 passlib[bcrypt]
 pydantic[email]
 mysql-connector-python
+gridfs
